@@ -132,7 +132,7 @@ export default function WallsCaseStudy() {
               className="space-y-6"
             >
                <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                <img src="/images/walls_analytics_v3_1789977893606.jpg" alt="Google Analytics 4" className="w-full h-auto object-cover" />
+                <img src="/images/walls_analytics_mosaic.jpg" alt="Google Analytics 4" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
             <motion.div 
@@ -142,7 +142,7 @@ export default function WallsCaseStudy() {
               className="space-y-6"
             >
                <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                <img src="/images/walls_automation_v3_1789977903224.jpg" alt="Mailchimp Automation" className="w-full h-auto object-cover" />
+                <img src="/images/walls_automation_mosaic.jpg" alt="Mailchimp Automation" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
           </div>
@@ -161,7 +161,7 @@ export default function WallsCaseStudy() {
                 viewport={{ once: true }}
                 className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
               >
-                <img src="/images/walls_zillow_v3_1789977726667.jpg" alt="Zillow Property Manager Backend" className="w-full h-auto object-cover" />
+                <img src="/images/walls_zillow_mosaic.jpg" alt="Zillow Property Manager Backend" className="w-full h-auto object-cover" />
               </motion.div>
               <motion.div 
                 initial={{ opacity: 0, x: -30 }}
@@ -170,7 +170,7 @@ export default function WallsCaseStudy() {
                 transition={{ delay: 0.1 }}
                 className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
               >
-                <img src="/images/walls_gohighlevel_v3_1789977713473.jpg" alt="GoHighLevel CRM" className="w-full h-auto object-cover" />
+                <img src="/images/walls_gohighlevel_mosaic.jpg" alt="GoHighLevel CRM" className="w-full h-auto object-cover" />
               </motion.div>
             </div>
             
@@ -181,7 +181,7 @@ export default function WallsCaseStudy() {
                 viewport={{ once: true }}
                 className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
               >
-                <img src="/images/walls_zapier_v3_1789977911811.jpg" alt="Zapier Automation" className="w-full h-auto object-cover" />
+                <img src="/images/walls_zapier_mosaic.jpg" alt="Zapier Automation" className="w-full h-auto object-cover" />
               </motion.div>
               <motion.div 
                 initial={{ opacity: 0, x: 30 }}
@@ -190,7 +190,7 @@ export default function WallsCaseStudy() {
                 transition={{ delay: 0.1 }}
                 className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
               >
-                <img src="/images/walls_meta_ads_mgr_v3_1789977702186.jpg" alt="Meta Ads Manager" className="w-full h-auto object-cover" />
+                <img src="/images/walls_meta_ads_mgr_mosaic.jpg" alt="Meta Ads Manager" className="w-full h-auto object-cover" />
               </motion.div>
 
               <div className="mt-8">
