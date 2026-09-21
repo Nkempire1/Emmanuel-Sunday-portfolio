@@ -9,7 +9,8 @@ const creatives = [
     company: "Walls Property Management",
     campaign: "Seattle Luxury Apartment Leasing",
     beforeText: "Generic real estate ad. Focused only on listing features. Low quality imagery. No strong call-to-action.",
-    afterImage: "/images/walls_facebook_ad_v3_1789977678423.jpg",
+    beforeImage: "/images/walls_before_ad_mosaic.jpg",
+    afterImage: "/images/walls_facebook_ad_mosaic.jpg",
     explanation: "I transitioned the creative from basic property listings to a high-end lifestyle carousel. We used wide-angle interior photography highlighting the Seattle skyline. The copy was rewritten to evoke emotion ('Discover Modern Living in Seattle') rather than just listing square footage.",
     howItWorked: "By leveraging Meta's dynamic carousel format combined with a geo-fenced radius around Seattle's tech hubs, the algorithm automatically showed the best-performing room (living room vs bedroom) to specific users based on their engagement history.",
     metrics: {
@@ -23,7 +24,8 @@ const creatives = [
     company: "Mirai Labs",
     campaign: "B2B Cloud Infrastructure ABM",
     beforeText: "Stock photo of servers. Highly technical jargon that isolated business decision-makers. No clear value proposition.",
-    afterImage: "/images/mirai_linkedin_ad_v3_1789977614438.jpg",
+    beforeImage: "/images/mirai_before_ad_mosaic.jpg",
+    afterImage: "/images/mirai_linkedin_ad_mosaic.jpg",
     explanation: "Enterprise CTOs ignore generic stock photos. I designed a custom, high-contrast creative using neon-grid brain imagery to visually represent 'AI Engineering'. The copy was sharpened to 'Scale Smart, Build Faster', instantly communicating the business value of our technical services.",
     howItWorked: "This creative was deployed exclusively via LinkedIn Sponsored Content to a highly vetted ABM list of 500 tech executives. We bypassed the 'junk' clicks and only paid for impressions that mattered to the sales team.",
     metrics: {
@@ -83,8 +85,16 @@ export default function CreativeCarousel() {
                 <div className="flex gap-4 mb-8">
                   <div className="flex-1">
                     <h4 className="text-zinc-500 text-sm font-semibold uppercase tracking-wider mb-3 text-center">Before (Generic)</h4>
-                    <div className="aspect-[4/5] bg-zinc-800 rounded-xl border border-white/5 flex items-center justify-center p-6 text-center">
-                      <p className="text-zinc-500 italic text-sm">{creatives[currentIndex].beforeText}</p>
+                    <div className="aspect-[4/5] bg-zinc-800 rounded-xl border border-white/5 flex items-center justify-center text-center overflow-hidden grayscale-[40%] opacity-80">
+                      {creatives[currentIndex].beforeImage ? (
+                        <img 
+                          src={creatives[currentIndex].beforeImage} 
+                          alt="Generic Before Creative"
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <p className="text-zinc-500 italic text-sm p-6">{creatives[currentIndex].beforeText}</p>
+                      )}
                     </div>
                   </div>
                   <div className="flex-1">
