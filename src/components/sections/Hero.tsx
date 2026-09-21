@@ -5,7 +5,54 @@ import { ArrowRight, BarChart3, Target, Zap } from 'lucide-react';
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 md:px-8">
-      <div className="max-w-5xl mx-auto w-full pt-20">
+      
+      {/* Spinning Orbital Design - Unique Growth Engine Concept */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] pointer-events-none opacity-40 mix-blend-screen" style={{ perspective: '1000px' }}>
+        <motion.div 
+          animate={{ rotateZ: 360 }} 
+          transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
+          className="w-full h-full border-zinc-800 rounded-full flex items-center justify-center"
+          style={{ transformStyle: 'preserve-3d', transform: 'rotateX(65deg)' }}
+        >
+          {/* Core */}
+          <div className="absolute w-32 h-32 bg-blue-500/20 blur-xl rounded-full" />
+          <div className="absolute w-16 h-16 bg-blue-400/40 blur-md rounded-full" />
+          <div className="absolute w-8 h-8 bg-white/80 blur-[2px] rounded-full shadow-[0_0_30px_10px_rgba(59,130,246,0.5)]" />
+          
+          {/* Inner Ring */}
+          <div className="absolute w-[300px] h-[300px] rounded-full border border-blue-500/30" />
+          <motion.div 
+            animate={{ rotate: -360 }} 
+            transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+            className="absolute w-[300px] h-[300px] rounded-full"
+          >
+            <div className="absolute top-[-4px] left-1/2 -translate-x-1/2 w-2 h-2 bg-emerald-400 rounded-full shadow-[0_0_10px_2px_rgba(52,211,153,0.8)]" />
+          </motion.div>
+
+          {/* Middle Ring */}
+          <div className="absolute w-[500px] h-[500px] rounded-full border border-indigo-500/20 border-dashed" />
+          <motion.div 
+            animate={{ rotate: 360 }} 
+            transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+            className="absolute w-[500px] h-[500px] rounded-full"
+          >
+            <div className="absolute top-1/2 right-[-5px] -translate-y-1/2 w-2.5 h-2.5 bg-blue-400 rounded-full shadow-[0_0_12px_3px_rgba(96,165,250,0.8)]" />
+            <div className="absolute bottom-[-5px] left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-indigo-400 rounded-full shadow-[0_0_10px_2px_rgba(129,140,248,0.8)]" />
+          </motion.div>
+
+          {/* Outer Ring */}
+          <div className="absolute w-[700px] h-[700px] rounded-full border border-emerald-500/10" />
+          <motion.div 
+            animate={{ rotate: -360 }} 
+            transition={{ duration: 35, repeat: Infinity, ease: "linear" }}
+            className="absolute w-[700px] h-[700px] rounded-full"
+          >
+            <div className="absolute top-1/4 left-[-4px] w-2 h-2 bg-white rounded-full shadow-[0_0_10px_2px_rgba(255,255,255,0.8)]" />
+          </motion.div>
+        </motion.div>
+      </div>
+
+      <div className="max-w-5xl mx-auto w-full pt-20 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

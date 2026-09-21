@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import LiveBackground from '@/components/ui/LiveBackground';
+import Navbar from '@/components/ui/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en" className="dark scroll-smooth">
       <body className={`${inter.className} bg-background text-foreground antialiased min-h-screen relative`}>
         <LiveBackground />
+        <Navbar />
         {children}
       </body>
     </html>
