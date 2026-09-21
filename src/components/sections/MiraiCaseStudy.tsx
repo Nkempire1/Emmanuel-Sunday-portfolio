@@ -69,8 +69,8 @@ export default function MiraiCaseStudy() {
           </div>
           <div className="p-6 rounded-2xl bg-blue-500/5 border border-blue-500/20">
             <h4 className="text-blue-400 mb-2 uppercase text-xs font-semibold tracking-wider">The Result</h4>
-            <p className="text-white text-3xl font-bold mb-1">-35% <span className="text-lg text-zinc-400 font-normal">CPA</span></p>
-            <p className="text-white text-3xl font-bold">+120% <span className="text-lg text-zinc-400 font-normal">SQLs in 6 mos</span></p>
+            <p className="text-white text-3xl font-bold mb-1">-28% <span className="text-lg text-zinc-400 font-normal">CPA</span></p>
+            <p className="text-white text-3xl font-bold">+42% <span className="text-lg text-zinc-400 font-normal">SQLs in 6 mos</span></p>
           </div>
         </div>
 
@@ -98,7 +98,7 @@ export default function MiraiCaseStudy() {
                 To capture the influx of enterprise leads, I engineered a highly structured HubSpot Sales pipeline tailored specifically for Mirai Labs. Instead of a messy spreadsheet, we established a single source of truth that tracked every stage of the buyer's journey—from initial Discovery to Proof of Concept and Closed Won.
               </p>
               <p className="text-zinc-400 mb-6 leading-relaxed">
-                This rigorous data hygiene allowed us to accurately forecast revenue, actively managing a live pipeline value of precisely <strong>$1.2M</strong>. Individual enterprise contracts ranging from <strong>$42,000 to $120,000</strong> were tracked with perfect visibility. <em>(Note: In the adjoining screenshot, all specific client logos, contact names, and proprietary company data have been strictly redacted via mosaic blur to protect client confidentiality).</em>
+                This rigorous data hygiene allowed us to accurately forecast revenue, actively managing a live pipeline value of precisely <strong>$450K</strong>. Individual enterprise contracts ranging from <strong>$15,000 to $45,000</strong> were tracked with perfect visibility. <em>(Note: In the adjoining screenshot, all specific client logos, contact names, and proprietary company data have been strictly redacted via mosaic blur to protect client confidentiality).</em>
               </p>
               <ul className="space-y-3">
                 {['Custom deal properties for AI engineering services', 'Automated stage progression and decay triggers', 'Strict data hygiene protocols for executive forecasting'].map((item, i) => (
@@ -188,7 +188,7 @@ export default function MiraiCaseStudy() {
                 While paid ads generated immediate pipeline, I simultaneously built a long-term organic growth engine. Using SEMrush, I identified high-intent, low-difficulty keywords around "enterprise AI" and "cloud infrastructure." 
               </p>
               <p className="text-zinc-400 leading-relaxed">
-                By producing authoritative, highly-technical content tailored for engineering leaders, organic traffic skyrocketed by <strong>+812% (reaching 853K visits)</strong>, establishing Mirai Labs as a thought leader in the space and dramatically lowering blended CPA.
+                By producing authoritative, highly-technical content tailored for engineering leaders, organic traffic skyrocketed by <strong>+215% (reaching 42.5K visits)</strong>, establishing Mirai Labs as a thought leader in the space and dramatically lowering blended CPA.
               </p>
             </motion.div>
           </div>

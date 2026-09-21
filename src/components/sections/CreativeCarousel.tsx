@@ -15,7 +15,7 @@ const creatives = [
     howItWorked: "By leveraging Meta's dynamic carousel format combined with a geo-fenced radius around Seattle's tech hubs, the algorithm automatically showed the best-performing room (living room vs bedroom) to specific users based on their engagement history.",
     metrics: {
       roas: "4.15x",
-      cpa: "$84.79",
+      cpa: "$62.50",
       leads: "312 Qualified Tours"
     }
   },
@@ -30,8 +30,8 @@ const creatives = [
     howItWorked: "This creative was deployed exclusively via LinkedIn Sponsored Content to a highly vetted ABM list of 500 tech executives. We bypassed the 'junk' clicks and only paid for impressions that mattered to the sales team.",
     metrics: {
       roas: "N/A (B2B Pipeline)",
-      cpa: "Reduced by 35%",
-      leads: "1.2k Total Leads (Q3)"
+      cpa: "Reduced by 28%",
+      leads: "350 Total Leads (Q3)"
     }
   }
 ];

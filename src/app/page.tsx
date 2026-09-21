@@ -5,6 +5,7 @@ import WallsCaseStudy from '@/components/sections/WallsCaseStudy';
 import CreativeCarousel from '@/components/sections/CreativeCarousel';
 import LandingPagesSection from '@/components/sections/LandingPagesSection';
 import ExtendedPortfolio from '@/components/sections/ExtendedPortfolio';
+import AboutMe from '@/components/sections/AboutMe';
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
         <CreativeCarousel />
         <ExtendedPortfolio />
       </div>
+      
+      <AboutMe />
       
       {/* Contact Section */}
       <section id="contact" className="py-24 px-4 md:px-8 border-t border-white/5 bg-zinc-950 text-center">

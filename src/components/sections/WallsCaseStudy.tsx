@@ -68,8 +68,8 @@ export default function WallsCaseStudy() {
           </div>
           <div className="p-6 rounded-2xl bg-emerald-500/5 border border-emerald-500/20">
             <h4 className="text-emerald-400 mb-2 uppercase text-xs font-semibold tracking-wider">The Result</h4>
-            <p className="text-white text-3xl font-bold mb-1">96.8% <span className="text-lg text-zinc-400 font-normal">Occupancy Rate</span></p>
-            <p className="text-white text-3xl font-bold">$3.4M <span className="text-lg text-zinc-400 font-normal">Monthly Revenue</span></p>
+            <p className="text-white text-3xl font-bold mb-1">94.5% <span className="text-lg text-zinc-400 font-normal">Occupancy Rate</span></p>
+            <p className="text-white text-3xl font-bold">$680K <span className="text-lg text-zinc-400 font-normal">Monthly Revenue</span></p>
           </div>
         </div>
 
@@ -93,7 +93,7 @@ export default function WallsCaseStudy() {
             >
               <h3 className="text-2xl font-bold text-white mb-4">Portfolio Performance Dashboarding</h3>
               <p className="text-zinc-400 mb-6 leading-relaxed">
-                To replace fragmented spreadsheets, I developed a centralized Looker Studio dashboard that pulled in real-time data from our property management software and ad platforms. This allowed stakeholders to view occupancy rates across the 36-property portfolio and track the exact ROI of our marketing channels.
+                To replace fragmented spreadsheets, I developed a centralized Looker Studio dashboard that pulled in real-time data from our property management software and ad platforms. This allowed stakeholders to view occupancy rates across the 320-unit portfolio and track the exact ROI of our marketing channels.
               </p>
             </motion.div>
           </div>
@@ -148,7 +148,7 @@ export default function WallsCaseStudy() {
           </div>
           <div className="text-center max-w-3xl mx-auto mb-12">
              <p className="text-zinc-400 leading-relaxed">
-                Traffic growth was explosive, scaling to <strong>398K users (+185%)</strong> in GA4. This top-of-funnel volume was instantly captured and converted using automated Mailchimp email sequences, ensuring no lead fell through the cracks during high-traffic spikes.
+                Traffic growth was explosive, scaling to <strong>24K users (+65%)</strong> in GA4. This top-of-funnel volume was instantly captured and converted using automated Mailchimp email sequences, ensuring no lead fell through the cracks during high-traffic spikes.
               </p>
           </div>
 
