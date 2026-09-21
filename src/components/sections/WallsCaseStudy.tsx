@@ -107,7 +107,7 @@ export default function WallsCaseStudy() {
               className="flex justify-center lg:order-2"
             >
                <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl max-w-sm">
-                <img src="/images/walls_facebook_ad_v3_1789977678423.jpg" alt="Facebook Ads Carousel" className="w-full h-auto object-cover" />
+                <img src="/images/walls_facebook_ad_mosaic.jpg" alt="Facebook Ads Carousel" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
             <motion.div 
