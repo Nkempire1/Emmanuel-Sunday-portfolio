@@ -176,7 +176,7 @@ export default function MiraiCaseStudy() {
               className="relative rounded-2xl overflow-hidden border border-white/10 bg-zinc-900 shadow-2xl"
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-orange-500/10 to-transparent mix-blend-overlay" />
-              <img src="/images/mirai_semrush_v3_1789977654082.jpg" alt="SEMrush Enterprise AI Organic Growth" className="w-full h-auto object-cover" />
+              <img src="/images/mirai_semrush_mosaic.jpg" alt="SEMrush Enterprise AI Organic Growth" className="w-full h-auto object-cover" />
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, x: 30 }}
