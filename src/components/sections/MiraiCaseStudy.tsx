@@ -86,19 +86,22 @@ export default function MiraiCaseStudy() {
               className="relative rounded-2xl overflow-hidden border border-white/10 bg-zinc-900 shadow-2xl"
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-transparent mix-blend-overlay" />
-              <img src="/images/mirai_hubspot_crm_v3_1789977628496.jpg" alt="HubSpot CRM Pipeline" className="w-full h-auto object-cover" />
+              <img src="/images/mirai_hubspot_crm_mosaic.jpg" alt="HubSpot CRM Pipeline" className="w-full h-auto object-cover" />
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-white mb-4">High-Velocity Sales Pipeline</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">High-Velocity B2B Sales Pipeline (HubSpot)</h3>
+              <p className="text-zinc-400 mb-4 leading-relaxed">
+                To capture the influx of enterprise leads, I engineered a highly structured HubSpot Sales pipeline tailored specifically for Mirai Labs. Instead of a messy spreadsheet, we established a single source of truth that tracked every stage of the buyer's journey—from initial Discovery to Proof of Concept and Closed Won.
+              </p>
               <p className="text-zinc-400 mb-6 leading-relaxed">
-                I migrated the sales tracking process into a structured HubSpot pipeline, aligning marketing and sales. By defining clear lifecycle stages (Lead → MQL → SQL → Proposal), we established a single source of truth for high-value tech contracts, giving executives immediate visibility into revenue forecasts.
+                This rigorous data hygiene allowed us to accurately forecast revenue, actively managing a live pipeline value of precisely <strong>$1.2M</strong>. Individual enterprise contracts ranging from <strong>$42,000 to $120,000</strong> were tracked with perfect visibility. <em>(Note: In the adjoining screenshot, all specific client logos, contact names, and proprietary company data have been strictly redacted via mosaic blur to protect client confidentiality).</em>
               </p>
               <ul className="space-y-3">
-                {['Custom deal properties for AI services', 'Automated stage progression triggers', 'Strict data hygiene protocols'].map((item, i) => (
+                {['Custom deal properties for AI engineering services', 'Automated stage progression and decay triggers', 'Strict data hygiene protocols for executive forecasting'].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-zinc-300">
                     <div className="w-1.5 h-1.5 rounded-full bg-blue-500" />
                     {item}
@@ -109,15 +112,15 @@ export default function MiraiCaseStudy() {
           </div>
 
           {/* Feature 2: Automation & Nurture */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:flex-row-reverse">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div 
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               className="relative rounded-2xl overflow-hidden border border-white/10 bg-zinc-900 shadow-2xl lg:order-2"
             >
-              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 to-transparent mix-blend-overlay" />
-              <img src="/images/mirai_n8n_v3_1789977666019.jpg" alt="n8n Marketing Automation Workflow" className="w-full h-auto object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/10 to-transparent mix-blend-overlay pointer-events-none" />
+              <img src="/images/advanced_ai_workflow.jpg" alt="Advanced AI Workflow Routing" className="w-full h-auto object-cover block" />
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
@@ -125,9 +128,12 @@ export default function MiraiCaseStudy() {
               viewport={{ once: true }}
               className="lg:order-1"
             >
-              <h3 className="text-2xl font-bold text-white mb-4">Behavioral Lead Scoring & Automation (n8n)</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">Advanced AI Workflow Routing & LLM Enrichment</h3>
               <p className="text-zinc-400 mb-6 leading-relaxed">
-                Not every lead is ready to buy enterprise AI services immediately. I designed complex logic workflows in n8n to enrich incoming B2B leads via Clearbit automatically. Based on the firmographic data, the automation routed them to sales via Slack while continuing a parallel CRM nurture sequence.
+                Not every lead is ready to buy enterprise AI services immediately. I designed a highly complex AI-driven logic workflow to intercept incoming B2B leads. Instead of standard routing, the system uses LLMs to extract intent, enrich firmographic data, and assign predictive lead scores.
+              </p>
+              <p className="text-zinc-400 leading-relaxed">
+                High-intent leads are instantly routed via Slack to sales reps with full MRR potential attached, while lower-intent leads are dynamically dropped into a personalized CRM nurture sequence.
               </p>
             </motion.div>
           </div>
@@ -141,7 +147,7 @@ export default function MiraiCaseStudy() {
               className="space-y-6"
             >
                <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                <img src="/images/mirai_power_bi_v3_1789977640921.jpg" alt="Power BI Dashboard" className="w-full h-auto object-cover" />
+                <img src="/images/mirai_power_bi_mosaic.jpg" alt="Power BI Dashboard" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
             <motion.div 
@@ -151,7 +157,7 @@ export default function MiraiCaseStudy() {
               className="space-y-6"
             >
                <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                <img src="/images/mirai_linkedin_ad_v3_1789977614438.jpg" alt="LinkedIn ABM Ad" className="w-full h-auto object-cover" />
+                <img src="/images/mirai_linkedin_ad_mosaic.jpg" alt="LinkedIn ABM Ad" className="w-full h-auto object-cover" />
               </div>
             </motion.div>
           </div>

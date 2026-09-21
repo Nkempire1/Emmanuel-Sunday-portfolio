@@ -4,6 +4,7 @@ import MiraiCaseStudy from '@/components/sections/MiraiCaseStudy';
 import WallsCaseStudy from '@/components/sections/WallsCaseStudy';
 import CreativeCarousel from '@/components/sections/CreativeCarousel';
 import LandingPagesSection from '@/components/sections/LandingPagesSection';
+import ExtendedPortfolio from '@/components/sections/ExtendedPortfolio';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <WallsCaseStudy />
         <LandingPagesSection />
         <CreativeCarousel />
+        <ExtendedPortfolio />
       </div>
       
       {/* Contact Section */}

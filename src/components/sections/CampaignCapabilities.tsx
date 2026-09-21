@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import MarketingGrowthEffect from '@/components/ui/MarketingGrowthEffect';
 
 const capabilities = [
   {
@@ -30,8 +31,9 @@ const capabilities = [
 
 export default function CampaignCapabilities() {
   return (
-    <section className="py-24 px-4 md:px-8 border-t border-white/5 relative bg-black/20 backdrop-blur-sm">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-24 px-4 md:px-8 border-t border-white/5 relative bg-black/20 backdrop-blur-sm overflow-hidden">
+      <MarketingGrowthEffect />
+      <div className="max-w-6xl mx-auto relative z-10">
         <div className="mb-16 text-center">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
