@@ -26,7 +26,7 @@ export default function Home() {
           <p className="text-zinc-400 text-lg">
             I'm currently looking for new opportunities to lead marketing teams and drive scalable revenue.
           </p>
-          <a href="mailto:hello@example.com" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-white text-zinc-950 font-bold text-lg hover:bg-zinc-200 transition-colors">
+          <a href="mailto:nkereuwemempire@gmail.com?subject=Marketing%20Portfolio%20Inquiry" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-white text-zinc-950 font-bold text-lg hover:bg-zinc-200 transition-colors">
             Contact Me
           </a>
         </div>
