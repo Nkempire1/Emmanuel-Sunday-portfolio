@@ -5,47 +5,47 @@ import { ExternalLink, Target, Layout, MousePointerClick, ArrowRight } from 'luc
 const landingPages = [
   {
     company: "Mirai Labs",
-    title: "Enterprise Cloud Migration (ABM)",
-    url: "mirailabs.io/solutions/cloud-migration",
-    target: "CTOs & VPs of Engineering",
-    icon: Target,
+    title: "Product Engineering Studio (Main Hub)",
+    url: "https://mirailabs.io/",
+    target: "CTOs, Founders & VPs of Engineering",
+    icon: Layout,
     color: "text-blue-400",
     bg: "bg-blue-500/10",
     border: "border-blue-500/20",
-    rationale: "Designed specifically for our LinkedIn ABM campaigns. I removed the global navigation to eliminate exit points and implemented a progressive profiling form via Clearbit. The page dynamically swapped headlines based on the visitor's industry (e.g., 'Fintech Cloud Migration'), which directly lifted conversion rates by 42%."
-  },
-  {
-    company: "Mirai Labs",
-    title: "LLM Security Blueprint (Gated Asset)",
-    url: "mirailabs.io/resources/llm-security",
-    target: "Security & IT Directors",
-    icon: Layout,
-    color: "text-indigo-400",
-    bg: "bg-indigo-500/10",
-    border: "border-indigo-500/20",
-    rationale: "A high-value gated asset page. To overcome the skepticism of technical buyers, I featured a 3-minute technical teardown video above the fold and included un-gated architectural diagrams. This 'give value first' psychological approach dropped our Cost Per Lead (CPL) by over $115."
+    rationale: "Mirai Labs is an elite product engineering studio that builds AI-native products and complex software. I structured this homepage not as a standard marketing site, but as a technical portfolio. The architecture leads with immediate proof of execution, highlighting capabilities in AI Systems, Mobile Experiences, and Cloud Infrastructure, rather than fluffy jargon. By immediately presenting deeply technical content to qualify leads, we removed friction for technical decision-makers."
   },
   {
     company: "Walls Property",
-    title: "Queen Anne Lofts (Geo-Fenced)",
-    url: "wallsproperty.com/queen-anne-lofts",
-    target: "Seattle Renters (5-Mile Radius)",
-    icon: MousePointerClick,
+    title: "Property Management Hub (B2C)",
+    url: "https://wallspropertymanagement.com/",
+    target: "Seattle Renters & Prospective Tenants",
+    icon: Layout,
     color: "text-emerald-400",
     bg: "bg-emerald-500/10",
     border: "border-emerald-500/20",
-    rationale: "Built exclusively for our Meta Ads traffic. Instead of a generic building listing, this page was designed as a lifestyle hook. It featured an embedded 3D Matterport tour, a real-time 'Units Remaining' scarcity trigger, and a direct Zapier webhook integration for 60-second SMS tour bookings."
+    rationale: "This serves as the central omnichannel hub for our tenant acquisition engine. Instead of a static brochure, it was architected as a high-velocity conversion funnel. The site prioritizes property discovery with geo-fenced dynamic parameters. It serves as the primary endpoint for our Top-of-Funnel (TOFU) Meta and Google Ads, capturing visitor data via GA4 and instantly routing inquiries into our 60-second GoHighLevel SMS automation flow."
   },
   {
     company: "Walls Property",
-    title: "Weekend Tour Special (Retargeting)",
-    url: "wallsproperty.com/vip-tour",
-    target: "High-Intent Bouncing Visitors",
-    icon: Target,
+    title: "Owner Acquisition Pipeline (B2B Paid Search)",
+    url: "https://wallspropertymanagement.com/owners?gad_source=1&gad_campaignid=23882986064",
+    target: "Property Owners & Investors",
+    icon: MousePointerClick,
     color: "text-teal-400",
     bg: "bg-teal-500/10",
     border: "border-teal-500/20",
-    rationale: "A dedicated retargeting funnel for users who viewed a listing but didn't book. The rationale was to remove all friction: the page consisted entirely of a single, mobile-optimized Calendly embed offering a 'Skip-the-Line' weekend tour, which was instrumental in driving our 4.15x ROAS."
+    rationale: "This is a dedicated, high-intent landing page built specifically for our Bottom-of-Funnel Google Ads campaigns targeting landlords. I mapped the URL parameters (gad_source, gclid) directly into our CRM for perfect closed-loop attribution. The page is designed to overcome owner objections immediately, focusing on maximizing NOI, using a sticky lead-capture form that integrates with Zapier to alert our B2B sales team instantly."
+  },
+  {
+    company: "Walls Property",
+    title: "Reputation Management & Social Proof",
+    url: "https://www.yelp.com/biz/walls-property-management-seattle",
+    target: "High-Intent Leasing Prospects",
+    icon: Target,
+    color: "text-orange-400",
+    bg: "bg-orange-500/10",
+    border: "border-orange-500/20",
+    rationale: "While not a traditional landing page, Yelp is a critical conversion bottleneck in the Seattle real estate market. I integrated this profile into our broader omnichannel strategy as a social proof engine. By actively managing reputation and utilizing automated review-gating workflows in our post-tour sequences, we drove positive social signals that directly lowered our overall Cost Per Acquisition (CPA) on paid channels."
   }
 ];
 
@@ -59,7 +59,7 @@ export default function LandingPagesSection() {
           <span className="text-indigo-400 font-semibold tracking-wider uppercase text-sm mb-4">Conversion Architecture</span>
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Landing Pages & Funnels</h2>
           <p className="text-zinc-400 max-w-2xl text-lg">
-            I don't just drive traffic; I build the environments that capture it. Here is the strategic rationale behind the high-converting landing pages I architected for my core campaigns.
+            I don't just drive traffic; I build the environments that capture it. Here is the strategic rationale behind the live pages and funnels I architected.
           </p>
         </div>
 
@@ -90,11 +90,16 @@ export default function LandingPagesSection() {
                   <span className="text-zinc-500">Target Audience:</span>
                   <span className="text-zinc-300 font-medium">{page.target}</span>
                 </div>
-                <div className="flex items-center justify-between text-sm">
-                  <span className="text-zinc-500">URL Structure:</span>
-                  <a href="#" className={`${page.color} hover:underline flex items-center gap-1`}>
-                    {page.url}
-                    <ExternalLink className="w-3 h-3" />
+                <div className="flex flex-col gap-2 mb-2">
+                  <span className="text-zinc-500 text-sm">Live URL:</span>
+                  <a 
+                    href={page.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`px-3 py-1.5 rounded bg-black/40 border border-white/5 font-mono text-xs ${page.color} flex items-center gap-2 w-fit hover:bg-white/5 transition-colors group`}
+                  >
+                    <ExternalLink className="w-3 h-3 opacity-50 group-hover:opacity-100 transition-opacity" />
+                    <span className="truncate max-w-[280px] sm:max-w-xs">{page.url}</span>
                   </a>
                 </div>
               </div>
