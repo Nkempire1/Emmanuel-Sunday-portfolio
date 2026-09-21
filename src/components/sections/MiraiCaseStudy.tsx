@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function MiraiCaseStudy() {
   return (
-    <section id="work" className="py-24 px-4 md:px-8 border-t border-white/5 bg-zinc-950">
+    <section id="work" className="py-24 px-4 md:px-8 border-t border-white/5 bg-black/10 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto">
         
         {/* Section Header */}

@@ -35,26 +35,14 @@ const landingPages = [
     bg: "bg-teal-500/10",
     border: "border-teal-500/20",
     rationale: "This is a dedicated, high-intent landing page built specifically for our Bottom-of-Funnel Google Ads campaigns targeting landlords. I mapped the URL parameters (gad_source, gclid) directly into our CRM for perfect closed-loop attribution. The page is designed to overcome owner objections immediately, focusing on maximizing NOI, using a sticky lead-capture form that integrates with Zapier to alert our B2B sales team instantly."
-  },
-  {
-    company: "Walls Property",
-    title: "Reputation Management & Social Proof",
-    url: "https://www.yelp.com/biz/walls-property-management-seattle",
-    target: "High-Intent Leasing Prospects",
-    icon: Target,
-    color: "text-orange-400",
-    bg: "bg-orange-500/10",
-    border: "border-orange-500/20",
-    rationale: "While not a traditional landing page, Yelp is a critical conversion bottleneck in the Seattle real estate market. I integrated this profile into our broader omnichannel strategy as a social proof engine. By actively managing reputation and utilizing automated review-gating workflows in our post-tour sequences, we drove positive social signals that directly lowered our overall Cost Per Acquisition (CPA) on paid channels."
   }
 ];
 
 export default function LandingPagesSection() {
   return (
     <section className="py-24 relative overflow-hidden">
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-gradient-to-b from-indigo-500/5 to-transparent -z-10" />
       
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col items-center text-center mb-16">
           <span className="text-indigo-400 font-semibold tracking-wider uppercase text-sm mb-4">Conversion Architecture</span>
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Landing Pages & Funnels</h2>
@@ -63,15 +51,16 @@ export default function LandingPagesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {landingPages.map((page, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ y: -5, scale: 1.02 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className={`p-8 rounded-2xl bg-zinc-900/50 border ${page.border} backdrop-blur-sm flex flex-col h-full hover:bg-zinc-900 transition-colors`}
+              transition={{ duration: 0.5, delay: index * 0.1, type: "spring", stiffness: 300 }}
+              className={`p-8 rounded-2xl bg-zinc-900/40 border ${page.border} backdrop-blur-md flex flex-col h-full hover:bg-zinc-900/80 transition-colors shadow-2xl`}
             >
               <div className="flex items-start justify-between mb-6">
                 <div className="flex items-center gap-4">

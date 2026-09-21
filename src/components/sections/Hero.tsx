@@ -5,12 +5,6 @@ import { ArrowRight, BarChart3, Target, Zap } from 'lucide-react';
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 md:px-8">
-      {/* Background gradients */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-500/10 blur-[120px] rounded-full" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-500/10 blur-[120px] rounded-full" />
-      </div>
-
       <div className="max-w-5xl mx-auto w-full pt-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -64,13 +58,18 @@ export default function Hero() {
             { icon: Zap, title: "Marketing Automation", desc: "Complex CRM workflows (HubSpot, GoHighLevel, Mailchimp) for lead nurturing." },
             { icon: BarChart3, title: "Data & Analytics", desc: "Full-funnel tracking and dashboarding (Looker Studio, Power BI, GA4)." }
           ].map((item, i) => (
-            <div key={i} className="p-6 rounded-2xl bg-white/5 border border-white/5 backdrop-blur-sm flex flex-col gap-4 hover:border-white/10 transition-colors">
+            <motion.div 
+              key={i} 
+              whileHover={{ y: -5, scale: 1.02 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="p-6 rounded-2xl bg-white/5 border border-white/5 backdrop-blur-sm flex flex-col gap-4 hover:border-white/10 transition-colors cursor-default"
+            >
               <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400">
                 <item.icon className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-semibold text-white">{item.title}</h3>
               <p className="text-zinc-400 leading-relaxed">{item.desc}</p>
-            </div>
+            </motion.div>
           ))}
         </motion.div>
       </div>

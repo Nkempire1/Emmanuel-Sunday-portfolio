@@ -30,7 +30,7 @@ const capabilities = [
 
 export default function CampaignCapabilities() {
   return (
-    <section className="py-24 px-4 md:px-8 bg-zinc-950 border-t border-white/5">
+    <section className="py-24 px-4 md:px-8 border-t border-white/5 relative bg-black/20 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16 text-center">
           <motion.h2 
@@ -58,9 +58,10 @@ export default function CampaignCapabilities() {
               key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ y: -5, scale: 1.02 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-zinc-900 border border-white/10 rounded-2xl p-8 shadow-2xl flex flex-col"
+              transition={{ delay: index * 0.1, type: "spring", stiffness: 300 }}
+              className="bg-zinc-900/60 backdrop-blur-md border border-white/10 rounded-2xl p-8 shadow-2xl flex flex-col hover:border-white/20 hover:shadow-indigo-500/10"
             >
               <div className="mb-6">
                 <span className="inline-block px-3 py-1 rounded-full bg-white/5 text-zinc-300 text-xs font-semibold tracking-wider uppercase mb-4">

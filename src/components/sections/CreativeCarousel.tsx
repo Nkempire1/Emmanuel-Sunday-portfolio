@@ -79,7 +79,7 @@ export default function CreativeCarousel() {
               className="grid grid-cols-1 lg:grid-cols-2"
             >
               {/* Images Section */}
-              <div className="p-8 lg:border-r border-white/10 bg-zinc-950/50 flex flex-col justify-center">
+              <div className="p-8 lg:border-r border-white/10 bg-black/20 backdrop-blur-sm/50 flex flex-col justify-center">
                 <div className="flex gap-4 mb-8">
                   <div className="flex-1">
                     <h4 className="text-zinc-500 text-sm font-semibold uppercase tracking-wider mb-3 text-center">Before (Generic)</h4>
