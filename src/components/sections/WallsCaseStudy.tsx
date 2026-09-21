@@ -84,7 +84,7 @@ export default function WallsCaseStudy() {
               viewport={{ once: true }}
               className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
             >
-              <img src="/images/walls_looker_studio_v3_1789977689590.jpg" alt="Looker Studio Real Estate Dashboard" className="w-full h-auto object-cover" />
+              <img src="/images/walls_looker_studio_mosaic.jpg" alt="Looker Studio Real Estate Dashboard" className="w-full h-auto object-cover" />
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, x: 30 }}
