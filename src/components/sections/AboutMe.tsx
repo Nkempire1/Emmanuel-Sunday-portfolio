@@ -40,7 +40,7 @@ export default function AboutMe() {
                 I’m a growth marketer with 11 years of experience across paid acquisition, SEO, automation, analytics, and customer psychology.
               </p>
               <p>
-                I combine strategic thinking with hands-on execution—building campaigns, systems, and customer journeys that are designed to produce measurable business results. My background in Philosophy taught me to challenge assumptions, think critically, and let evidence guide decisions.
+                I combine strategic thinking with hands-on execution: building campaigns, systems, and customer journeys that are designed to produce measurable business results. My background in Philosophy taught me to challenge assumptions, think critically, and let evidence guide decisions.
               </p>
               <p className="text-white font-medium border-l-4 border-blue-500 pl-4 py-1">
                 I like solving complex marketing problems and turning them into simple, scalable growth systems.

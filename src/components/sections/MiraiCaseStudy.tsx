@@ -95,7 +95,7 @@ export default function MiraiCaseStudy() {
             >
               <h3 className="text-2xl font-bold text-white mb-4">High-Velocity B2B Sales Pipeline (HubSpot)</h3>
               <p className="text-zinc-400 mb-4 leading-relaxed">
-                To capture the influx of enterprise leads, I engineered a highly structured HubSpot Sales pipeline tailored specifically for Mirai Labs. Instead of a messy spreadsheet, we established a single source of truth that tracked every stage of the buyer's journey—from initial Discovery to Proof of Concept and Closed Won.
+                To capture the influx of enterprise leads, I engineered a highly structured HubSpot Sales pipeline tailored specifically for Mirai Labs. Instead of a messy spreadsheet, we established a single source of truth that tracked every stage of the buyer's journey, from initial Discovery to Proof of Concept and Closed Won.
               </p>
               <p className="text-zinc-400 mb-6 leading-relaxed">
                 This rigorous data hygiene allowed us to accurately forecast revenue, actively managing a live pipeline value of precisely <strong>$450K</strong>. Individual enterprise contracts ranging from <strong>$15,000 to $45,000</strong> were tracked with perfect visibility. <em>(Note: In the adjoining screenshot, all specific client logos, contact names, and proprietary company data have been strictly redacted via mosaic blur to protect client confidentiality).</em>
@@ -153,15 +153,15 @@ export default function MiraiCaseStudy() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold text-white mb-4">LinkedIn ABM — Campaign Manager</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">LinkedIn ABM: Campaign Manager</h3>
               <p className="text-zinc-400 mb-4 leading-relaxed">
                 I deployed a tightly scoped Account-Based Marketing campaign exclusively on LinkedIn, targeting a custom audience of 500 CTOs, VPs of Engineering, and technical decision-makers at mid-market SaaS and cloud-infrastructure companies.
               </p>
               <p className="text-zinc-400 mb-6 leading-relaxed">
-                By eliminating broad targeting and focusing purely on intent-matched personas, the campaign delivered a <strong>1.95% CTR</strong> — more than 3x the LinkedIn B2B benchmark of 0.6% — at a <strong>Cost per Conversion of $42.80</strong>. Every dollar was tracked directly back to pipeline MRR.
+                By eliminating broad targeting and focusing purely on intent-matched personas, the campaign delivered a <strong>1.95% CTR</strong> (more than 3x the LinkedIn B2B benchmark of 0.6%) at a <strong>Cost per Conversion of $42.80</strong>. Every dollar was tracked directly back to pipeline MRR.
               </p>
               <ul className="space-y-3">
-                {['84.2K targeted impressions from a hand-curated ABM list', '1,640 high-intent clicks at a 1.95% CTR', '$42.80 Cost per Conversion — all tracked to pipeline'].map((item, i) => (
+                {['84.2K targeted impressions from a hand-curated ABM list', '1,640 high-intent clicks at a 1.95% CTR', '$42.80 Cost per Conversion, all tracked to pipeline'].map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-zinc-300">
                     <div className="w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0" />
                     {item}
@@ -196,7 +196,7 @@ export default function MiraiCaseStudy() {
           </div>
           <div className="text-center max-w-3xl mx-auto mb-12">
             <p className="text-zinc-400 leading-relaxed">
-              Every campaign result was piped into a custom Power BI dashboard for real-time executive reporting. The ad creative (right) was precision-engineered for the CTO persona — high-contrast, zero fluff, with a value proposition that spoke directly to engineering leadership.
+              Every campaign result was piped into a custom Power BI dashboard for real-time executive reporting. The ad creative (right) was precision-engineered for the CTO persona: high-contrast, zero fluff, with a value proposition that spoke directly to engineering leadership.
             </p>
           </div>
 

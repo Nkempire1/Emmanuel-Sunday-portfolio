@@ -10,7 +10,7 @@ const projects = [
     color: "text-blue-400",
     bg: "bg-blue-500/10",
     url: "https://nkempire1.github.io/delivery-portfolio/",
-    explanation: "I wanted to prove that great marketing isn't just about spreadsheets and CPCs—it's about the narrative. I built the 'Studio North' portfolio to showcase my creative direction across different industries. Instead of just writing copy, I conceptualized five distinct video campaigns ranging from a local real estate commercial to a Web3 gaming announcement. For each, I mapped out the exact audience psychology, the platform strategy (like optimizing for sound-off Meta feeds), and the core script. It demonstrates my ability to bridge the gap between high-level brand storytelling and hard-hitting performance media."
+    explanation: "I wanted to prove that great marketing isn't just about spreadsheets and CPCs; it's about the narrative. I built the 'Studio North' portfolio to showcase my creative direction across different industries. Instead of just writing copy, I conceptualized five distinct video campaigns ranging from a local real estate commercial to a Web3 gaming announcement. For each, I mapped out the exact audience psychology, the platform strategy (like optimizing for sound-off Meta feeds), and the core script. It demonstrates my ability to bridge the gap between high-level brand storytelling and hard-hitting performance media."
   },
   {
     title: "North Loop Strength: Full-Funnel Campaign",
