@@ -46,24 +46,24 @@ export default function Navbar() {
           <a 
             href="/Emmanuel_Sunday_Resume.pdf" 
             download
-            className="flex items-center gap-2 hover:text-white transition-colors ml-2"
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 text-blue-400 hover:bg-blue-500/20 hover:text-blue-300 transition-all border border-blue-500/20 ml-2 shadow-[0_0_15px_rgba(59,130,246,0.15)] hover:shadow-[0_0_25px_rgba(59,130,246,0.3)] font-medium"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
             </svg>
-            Resume
+            Download Resume
           </a>
 
           <Link 
             href="/#contact" 
-            className="px-4 py-2 ml-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors border border-white/5"
+            className="px-4 py-2 ml-2 rounded-full bg-white text-black font-semibold hover:bg-zinc-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.15)]"
           >
             Contact Me
           </Link>
         </nav>
 
         {/* Mobile Navigation (Simplified) */}
-        <nav className="flex md:hidden items-center gap-4 text-xs font-medium text-zinc-400">
+        <nav className="flex md:hidden items-center gap-3 text-xs font-medium text-zinc-400">
           <Link href="/#work" className="hover:text-white transition-colors">Work</Link>
           
           <Link 
@@ -72,7 +72,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="text-zinc-400 hover:text-[#0a66c2] transition-colors"
           >
-            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
               <rect x="2" y="9" width="4" height="12"></rect>
               <circle cx="4" cy="4" r="2"></circle>
@@ -82,7 +82,7 @@ export default function Navbar() {
           <a 
             href="/Emmanuel_Sunday_Resume.pdf" 
             download
-            className="text-white hover:text-zinc-300 transition-colors flex items-center gap-1"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-500/10 text-blue-400 hover:bg-blue-500/20 transition-all border border-blue-500/20 font-medium"
           >
             <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
