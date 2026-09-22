@@ -1,4 +1,5 @@
 import React from 'react';
+import PrintButton from '@/components/ui/PrintButton';
 
 export const metadata = {
   title: 'Resume | Emmanuel Sunday',
@@ -147,12 +148,7 @@ export default function ResumePage() {
             Press <strong>Cmd + P</strong> (Mac) or <strong>Ctrl + P</strong> (Windows) and select <strong>"Save as PDF"</strong>.<br/>
             Make sure "Background graphics" is enabled and "Headers and footers" are disabled in your print settings.
           </p>
-          <button 
-            onClick={() => window.print()} 
-            className="px-6 py-2 bg-blue-600 text-white rounded-full font-medium shadow-lg hover:bg-blue-700 transition-colors"
-          >
-            Print to PDF Now
-          </button>
+          <PrintButton />
         </div>
 
       </div>
