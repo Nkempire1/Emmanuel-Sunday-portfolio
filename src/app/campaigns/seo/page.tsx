@@ -15,7 +15,7 @@ export default function SEOCampaign() {
         <header className="mb-16 border-b border-white/10 pb-12">
           <span className="text-orange-500 font-semibold tracking-wider uppercase text-sm mb-4 block">Strategic Deep Dive</span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Enterprise Technical SEO & Organic Growth</h1>
-          <p className="text-xl text-zinc-400">Scaling Mirai Labs' organic engine to 853K monthly visits and establishing category authority in the hyper-competitive Enterprise AI sector.</p>
+          <p className="text-xl text-zinc-400">Scaling Mirai Labs' organic engine to 42.5K monthly visits and establishing category authority in the hyper-competitive Enterprise AI sector.</p>
         </header>
 
         <section className="mb-16 space-y-6">
@@ -95,11 +95,11 @@ export default function SEOCampaign() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-3xl font-bold text-white mb-2">+812%</div>
+              <div className="text-3xl font-bold text-white mb-2">+215%</div>
               <div className="text-xs text-zinc-400 uppercase tracking-wider">Organic Traffic Growth</div>
             </div>
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-3xl font-bold text-white mb-2">853K</div>
+              <div className="text-3xl font-bold text-white mb-2">42.5K</div>
               <div className="text-xs text-zinc-400 uppercase tracking-wider">Monthly Visits</div>
             </div>
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">

@@ -15,7 +15,7 @@ export default function ABMCampaign() {
         <header className="mb-16 border-b border-white/10 pb-12">
           <span className="text-blue-500 font-semibold tracking-wider uppercase text-sm mb-4 block">Strategic Deep Dive</span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Account-Based Marketing (ABM) Engine</h1>
-          <p className="text-xl text-zinc-400">An exhaustive breakdown of how I overhauled Mirai Labs' Go-To-Market strategy, integrating Paid Social, Search, and Automation to capture $1.2M in Enterprise Pipeline.</p>
+          <p className="text-xl text-zinc-400">An exhaustive breakdown of how I overhauled Mirai Labs' Go-To-Market strategy, integrating Paid Social, Search, and Automation to generate $450K in Enterprise Pipeline.</p>
         </header>
 
         <section className="mb-16 space-y-6">
@@ -90,16 +90,16 @@ export default function ABMCampaign() {
             KPIs, Analytics & Final Results
           </h2>
           <p className="leading-relaxed mb-8">
-            The results of this comprehensive digital marketing overhaul were tracked meticulously in our Power BI dashboards. By aligning Paid Social, Search, CRO, and CRM Automation, we achieved unprecedented growth in the B2B sector. We generated a record $480k in Annual Recurring Revenue (ARR) strictly from the LinkedIn ABM channel alone, and drastically improved our unit economics.
+            The results of this comprehensive digital marketing overhaul were tracked meticulously in our Power BI dashboards. By aligning Paid Social, Search, CRO, and CRM Automation, we achieved strong growth in the B2B sector. We generated $450K in total enterprise pipeline from the LinkedIn ABM channel and drastically improved our unit economics.
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <div className="p-8 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-4xl font-bold text-white mb-2">$1.2M</div>
-              <div className="text-sm text-zinc-400 uppercase tracking-wider">Enterprise Pipeline MRR</div>
+              <div className="text-4xl font-bold text-white mb-2">$450K</div>
+              <div className="text-sm text-zinc-400 uppercase tracking-wider">Enterprise Pipeline Generated</div>
             </div>
             <div className="p-8 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-4xl font-bold text-white mb-2">-35%</div>
+              <div className="text-4xl font-bold text-white mb-2">-28%</div>
               <div className="text-sm text-zinc-400 uppercase tracking-wider">Cost Per Acquisition (CPA)</div>
             </div>
             <div className="p-8 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
@@ -107,7 +107,7 @@ export default function ABMCampaign() {
               <div className="text-sm text-zinc-400 uppercase tracking-wider">Sales Cycle Velocity</div>
             </div>
             <div className="p-8 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-4xl font-bold text-white mb-2">1.2K</div>
+              <div className="text-4xl font-bold text-white mb-2">350</div>
               <div className="text-sm text-zinc-400 uppercase tracking-wider">Targeted Core Leads</div>
             </div>
             <div className="p-8 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">

@@ -8,7 +8,7 @@ const capabilities = [
     company: "Mirai Labs",
     planning: "Identified that broad-targeting B2B tech ads resulted in unqualified startup leads. Planned a pivot to target only CTOs and VPs at enterprise companies ($50M+ revenue) using firmographic data.",
     execution: "Orchestrated LinkedIn Sponsored InMail campaigns combined with n8n automated lead enrichment (Clearbit). Triggered Slack alerts for sales only when lead score > 50.",
-    achievement: "Closed $1.2M in enterprise pipeline, reduced CPA by 35%, and accelerated sales velocity to 46 days.",
+    achievement: "Generated $450K in enterprise pipeline, reduced CPA by 28%, and accelerated sales velocity to 46 days.",
     link: "/campaigns/abm"
   },
   {
@@ -16,7 +16,7 @@ const capabilities = [
     company: "Walls Property Management",
     planning: "Recognized that high-value Seattle renters (Queen Anne, West Seattle) were abandoning traditional apartment listing sites. Planned a hyper-local paid social strategy.",
     execution: "Deployed geo-fenced Meta Carousel ads showcasing luxury interiors. Connected Zillow and Meta leads via Zapier directly into a GoHighLevel SMS auto-responder to achieve a 60-second speed-to-lead.",
-    achievement: "Achieved 96.8% portfolio occupancy across 1,450 units, driving $3.4M in monthly revenue at a $84.79 CPA.",
+    achievement: "Achieved 94.5% portfolio occupancy across 320 units, driving $680K in monthly revenue at a $62.50 CPA.",
     link: "/campaigns/omnichannel"
   },
   {
@@ -24,7 +24,7 @@ const capabilities = [
     company: "Mirai Labs",
     planning: "Paid channels were driving immediate pipeline, but long-term blended CPA was high. Planned a shift to capture high-intent 'bottom-of-funnel' search traffic for cloud engineering.",
     execution: "Utilized SEMrush to discover high-volume, low-difficulty technical keywords. Developed authoritative engineering content and executed a technical backlink strategy.",
-    achievement: "Scaled organic traffic by +812% to 853K monthly visits, securing top keyword rankings for 'enterprise AI solutions'.",
+    achievement: "Scaled organic traffic by +215% to 42.5K monthly visits, securing top keyword rankings for 'enterprise AI solutions'.",
     link: "/campaigns/seo"
   }
 ];

@@ -15,7 +15,7 @@ export default function OmnichannelCampaign() {
         <header className="mb-16 border-b border-white/10 pb-12">
           <span className="text-emerald-500 font-semibold tracking-wider uppercase text-sm mb-4 block">Strategic Deep Dive</span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Omnichannel Real Estate Leasing</h1>
-          <p className="text-xl text-zinc-400">A masterclass in transforming local property marketing through geo-fenced Paid Social, CRM automation, and data analytics to achieve 96.8% portfolio occupancy.</p>
+          <p className="text-xl text-zinc-400">A masterclass in transforming local property marketing through geo-fenced Paid Social, CRM automation, and data analytics to achieve 94.5% portfolio occupancy.</p>
         </header>
 
         <section className="mb-16 space-y-6">
@@ -56,7 +56,7 @@ export default function OmnichannelCampaign() {
             On the <strong>Google Ads</strong> side, I pivoted the budget away from generic broad match terms. I implemented a hyper-local, long-tail strategy bidding on exact match phrases like <em>"pet-friendly 2 bedroom apartment Ballard"</em> or <em>"luxury loft Queen Anne."</em> This immediately dropped our CPC and captured renters at the very bottom of the decision funnel.
           </p>
           <p className="leading-relaxed">
-            Simultaneously, I configured <strong>Google Analytics 4 (GA4)</strong> to track the entire user journey. I set up custom conversion events for "Tour Requested" and "Lease Application Started," giving us real-time visibility into the exact traffic sources driving revenue. Traffic growth was explosive, scaling to 398K users (+185%) with peak daily traffic hitting 75,412 visitors.
+            Simultaneously, I configured <strong>Google Analytics 4 (GA4)</strong> to track the entire user journey. I set up custom conversion events for "Tour Requested" and "Lease Application Started," giving us real-time visibility into the exact traffic sources driving revenue. Traffic growth was explosive, scaling to 24K users (+65%) with peak daily traffic hitting 4,800 visitors.
           </p>
 
           <h3 className="text-xl font-bold text-white mt-8 mb-4">Phase 3: Automation & The 60-Second Rule</h3>
@@ -93,16 +93,16 @@ export default function OmnichannelCampaign() {
             KPIs, Analytics & Final Results
           </h2>
           <p className="leading-relaxed mb-8">
-            This omnichannel architecture fundamentally transformed how Walls Property Management operated. By relying on deterministic data, aggressive automation, and highly targeted creative, we achieved a staggering 96.8% occupancy rate across a 1,450-unit portfolio, securing $3.4M in monthly recurring revenue.
+            This omnichannel architecture fundamentally transformed how Walls Property Management operated. By relying on deterministic data, aggressive automation, and highly targeted creative, we achieved a staggering 94.5% occupancy rate across a 320-unit portfolio, securing $680K in monthly recurring revenue.
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-3xl font-bold text-white mb-2">96.8%</div>
+              <div className="text-3xl font-bold text-white mb-2">94.5%</div>
               <div className="text-xs text-zinc-400 uppercase tracking-wider">Portfolio Occupancy</div>
             </div>
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-3xl font-bold text-white mb-2">$3.4M</div>
+              <div className="text-3xl font-bold text-white mb-2">$680K</div>
               <div className="text-xs text-zinc-400 uppercase tracking-wider">Monthly Revenue</div>
             </div>
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
@@ -110,12 +110,12 @@ export default function OmnichannelCampaign() {
               <div className="text-xs text-zinc-400 uppercase tracking-wider">Meta Ads ROAS</div>
             </div>
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-3xl font-bold text-white mb-2">$84.79</div>
+              <div className="text-3xl font-bold text-white mb-2">$62.50</div>
               <div className="text-xs text-zinc-400 uppercase tracking-wider">Cost Per Lead (CPA)</div>
             </div>
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
-              <div className="text-3xl font-bold text-white mb-2">398K</div>
-              <div className="text-xs text-zinc-400 uppercase tracking-wider">GA4 Users (+185%)</div>
+              <div className="text-3xl font-bold text-white mb-2">24K</div>
+              <div className="text-xs text-zinc-400 uppercase tracking-wider">GA4 Users (+65%)</div>
             </div>
             <div className="p-6 bg-zinc-900 border border-white/10 rounded-2xl text-center shadow-xl">
               <div className="text-3xl font-bold text-white mb-2">60s</div>

@@ -55,7 +55,7 @@ export default function MiraiDetailedStudy() {
 
           <h3 className="text-white text-xl font-bold mt-8 mb-4">Step 4: Enterprise SEO Strategy (SEMrush)</h3>
           <p className="text-zinc-300">
-            Paid acquisition was only the short-term play. Using <strong>SEMrush</strong>, I identified low-difficulty, high-intent keywords such as "enterprise AI engineering firm" and "cloud infrastructure migration." I spearheaded a content roadmap that scaled our organic traffic by <strong>+812% (reaching 853K visits)</strong>, establishing massive authority.
+            Paid acquisition was only the short-term play. Using <strong>SEMrush</strong>, I identified low-difficulty, high-intent keywords such as "enterprise AI engineering firm" and "cloud infrastructure migration." I spearheaded a content roadmap that scaled our organic traffic by <strong>+215% (reaching 42.5K visits)</strong>, establishing massive authority.
           </p>
 
           <h3 className="text-white text-xl font-bold mt-8 mb-4">Step 5: Data Visualization with Power BI</h3>
@@ -66,15 +66,15 @@ export default function MiraiDetailedStudy() {
           <h2 className="text-white text-2xl font-bold mt-12 mb-6 border-b border-white/10 pb-4">The Final Results</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
             <div className="p-6 bg-zinc-900 rounded-xl border border-white/5 text-center">
-              <div className="text-4xl font-bold text-blue-400 mb-2">-35%</div>
+              <div className="text-4xl font-bold text-blue-400 mb-2">-28%</div>
               <div className="text-sm text-zinc-400">Cost-Per-Acquisition</div>
             </div>
             <div className="p-6 bg-zinc-900 rounded-xl border border-white/5 text-center">
-              <div className="text-4xl font-bold text-blue-400 mb-2">+120%</div>
+              <div className="text-4xl font-bold text-blue-400 mb-2">+42%</div>
               <div className="text-sm text-zinc-400">Sales Qualified Leads (SQLs)</div>
             </div>
             <div className="p-6 bg-zinc-900 rounded-xl border border-white/5 text-center">
-              <div className="text-4xl font-bold text-blue-400 mb-2">$1.2M</div>
+              <div className="text-4xl font-bold text-blue-400 mb-2">$450K</div>
               <div className="text-sm text-zinc-400">Pipeline Generated in 6 Mos</div>
             </div>
           </div>

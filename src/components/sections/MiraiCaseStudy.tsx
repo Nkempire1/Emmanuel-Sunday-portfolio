@@ -36,7 +36,7 @@ export default function MiraiCaseStudy() {
               transition={{ delay: 0.2 }}
               className="text-xl text-zinc-400 max-w-3xl"
             >
-              How I architected an Account-Based Marketing (ABM) engine and automated lead scoring system that decreased CPA by 35% and boosted Sales Qualified Leads (SQLs) by 120%.
+              How I architected an Account-Based Marketing (ABM) engine and automated lead scoring system that decreased CPA by 28% and boosted Sales Qualified Leads (SQLs) by 42%.
             </motion.p>
           </div>
           <motion.div
