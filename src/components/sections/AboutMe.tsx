@@ -15,16 +15,11 @@ export default function AboutMe() {
             className="lg:col-span-5 flex justify-center lg:justify-start"
           >
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-zinc-800 bg-zinc-900 shadow-2xl flex items-center justify-center">
-              {/* Fallback before picture is added */}
-              <div className="text-zinc-700 text-center px-8">
-                <svg className="w-16 h-16 mx-auto mb-4 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-                <p className="text-sm uppercase tracking-widest font-semibold">Headshot Placeholder</p>
-              </div>
-              
-              {/* When ready, replace the above div with this img tag: */}
-              {/* <img src="/images/emmanuel_headshot.jpg" alt="Emmanuel Sunday" className="absolute inset-0 w-full h-full object-cover" /> */}
+              <img 
+                src="/images/profile-picture.jpg" 
+                alt="Emmanuel Sunday" 
+                className="absolute inset-0 w-full h-full object-cover" 
+              />
             </div>
           </motion.div>
 
