@@ -9,6 +9,12 @@ export const metadata = {
 export default function ResumePage() {
   return (
     <div className="min-h-screen bg-zinc-100 py-10 print:py-0 print:bg-white font-sans">
+      <style dangerouslySetInnerHTML={{__html: `
+        @media print {
+          @page { margin: 0; }
+          body { padding: 1.5cm; }
+        }
+      `}} />
       {/* 
         This outer container limits the width on web to look like a piece of paper,
         but expands to full width when printing.
@@ -34,7 +40,7 @@ export default function ResumePage() {
             </span>
             <span className="flex items-center gap-1">
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
-              Portfolio Website
+              marketing-portfolio-lemon-beta.vercel.app
             </span>
           </div>
         </header>
