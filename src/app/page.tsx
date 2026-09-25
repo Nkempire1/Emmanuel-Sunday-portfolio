@@ -27,7 +27,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto space-y-8">
           <h2 className="text-3xl md:text-5xl font-bold text-white">Let's build your growth engine.</h2>
           <p className="text-zinc-400 text-lg">
-            I'm currently looking for new opportunities to lead marketing teams and drive scalable revenue.
+            I am currently exploring new opportunities to lead marketing teams and drive scalable revenue.
           </p>
           <a href="mailto:emmanuelsundaynk@gmail.com?subject=Connect%20with%20Emmanuel%20Sunday" className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-white text-zinc-950 font-bold text-lg hover:bg-zinc-200 transition-colors">
             Contact Me
